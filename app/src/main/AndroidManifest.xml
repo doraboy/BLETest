@@ -25,6 +25,8 @@
             android:name=".BLEService"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name="com.inuker.bluetooth.library.BluetoothService" />
     </application>
 
 </manifest>
