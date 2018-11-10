@@ -2,16 +2,18 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_marginVertical="8dp"
     >
 
     <TextView
-    android:id="@+id/bleitem_name"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentLeft="true"
-    />
+        android:id="@+id/bleitem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        />
+
     <TextView
         android:id="@+id/bleitem_mac"
         android:layout_width="wrap_content"
